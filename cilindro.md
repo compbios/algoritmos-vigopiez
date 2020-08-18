@@ -15,8 +15,7 @@ Algoritmo Volumen_area_cilindro
 	Volumen = 3.1416 * (radio *radio) * altura
 	Area = 2 * 3.1416 * radio * (radio + altura)  
 	
-	//Escriba los valores de las variables
-	
+	//Imprima los resultados	
 	Escribir "el volumen es ", Volumen
 	Escribir "el area es ", Area 
 	

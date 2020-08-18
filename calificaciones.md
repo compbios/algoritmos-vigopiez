@@ -1,1 +1,31 @@
-
+Algoritmo Calificaciones
+	//Inicio definiendo las variables
+	Definir Nota1, Nota2, Nota3, Nota4 Como Real
+	//Escribe nota 1 - Parcial 1
+	Escribir "Ingrese el valor de la nota 1 - Parcial 1"
+	Leer Nota1
+	//Escribe nota 2 - Parcial 2
+	Escribir "Ingrese el valor de la nota 2 - Parcial 2"
+	Leer Nota2
+	//Escribe nota 3 - Participación
+	Escribir "Ingrese el valor de la nota 3 - Participación"
+	Leer Nota3
+	//Escribe nota 4 - Examen final
+	Escribir "Ingrese el valor de la nota 4 - Examen final"
+	Leer Nota4
+	
+	Definitiva = nota1*0.25 + nota2*0.25 + nota3*0.2 + nota4*0.3 
+	
+	//Imprima el promedio ponderado del curso
+	Escribir "El promedio ponderado del curso es ", Definitiva 
+	
+	//Imprima la valoración cualitativa del curso
+	Escribir "Valoración cualitativa: "
+		//Imprima el concepto 
+	Si Definitiva > 3.0 Entonces
+		Imprimir "!Felicitaciones¡, curso aprobado"
+	SiNo
+		Imprimir "Reprobado, debe repetir el curso"
+	Fin Si
+		
+FinAlgoritmo
